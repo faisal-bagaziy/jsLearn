@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    let add = (x) => x + 7;
+    let mult = (x,y) => x * y;
+
+    let capti = (string) => {
+        let str = string.toLowerCase();
+        let newStr = str.replace(str[0], str[0].toUpperCase());
+        return newStr
+    }
+
+    let lastLetter = (last) => last[last.length - 1];
+
+    console.log(lastLetter("im a houndzzzz"));
+    console.log(capti("hElLo"));
+    console.log(mult(10,5));
+    console.log( add(10));
+    console.log("Hello, World!");
+  </script>
+</body>
+</html>
